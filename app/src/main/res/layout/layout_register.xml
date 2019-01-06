@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:background="@color/colorPrimary"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:layout_above="@id/screenRegister"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/size10dp"
+        android:layout_margin="@dimen/size10dp"
+        android:textStyle="bold"
+        android:textSize="@dimen/size30sp"
+        />
+    <LinearLayout
+        android:id="@+id/screenRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        >
+
+        <EditText
+            android:id="@+id/edUsernameRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:hint="@string/user_name"
+            android:textColorHint="@color/colorGrey"
+            android:padding="@dimen/size10dp"
+            android:layout_margin="@dimen/size10dp"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="@dimen/size10dp"
+            android:textColor="@color/colorGrey"
+            android:singleLine="true"
+            />
+        <EditText
+            android:id="@+id/edPasswordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:hint="@string/password"
+            android:textColorHint="@color/colorGrey"
+            android:padding="@dimen/size10dp"
+            android:layout_margin="@dimen/size10dp"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="@dimen/size10dp"
+            android:password="true"
+            android:textColor="@color/colorGrey"
+            android:singleLine="true"
+
+
+            />
+        <RadioGroup
+            android:id="@+id/rgSexRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:id="@+id/maleRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nam"
+                android:checked="true"
+
+                />
+            <RadioButton
+                android:id="@+id/femaleRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nữ"
+
+                />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/edDateOfBirthRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:hint="@string/dateofbirth"
+            android:textColorHint="@color/colorGrey"
+            android:padding="@dimen/size10dp"
+            android:layout_margin="@dimen/size10dp"
+            android:drawableLeft="@drawable/calender"
+            android:drawablePadding="@dimen/size10dp"
+            android:textColor="@color/colorGrey"
+
+            />
+        <EditText
+            android:id="@+id/edIdCardRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:hint="@string/idcard"
+            android:textColorHint="@color/colorGrey"
+            android:padding="@dimen/size10dp"
+            android:layout_margin="@dimen/size10dp"
+            android:drawableLeft="@drawable/idcard"
+            android:drawablePadding="@dimen/size10dp"
+            android:textColor="@color/colorGrey"
+            android:numeric="integer"
+            android:maxLength="12"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/btnYesRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yes"
+                android:layout_weight="1"
+                android:padding="@dimen/size10dp"
+                android:layout_marginRight="@dimen/size10dp"
+                android:background="@color/colorGreenButton"
+                />
+            <Button
+                android:id="@+id/btnExitRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/exit"
+                android:layout_weight="1"
+                android:padding="@dimen/size10dp"
+                android:background="@color/colorOrangeButton"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
