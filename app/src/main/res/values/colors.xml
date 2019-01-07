@@ -9,4 +9,5 @@
     <color name="colorGreenButton">#43A047</color>
     <color name="backGroundLogin">#68992e</color>
     <color name="red">#e40404</color>
+    <color name="backgroundToolBar">#d77a09</color>
 </resources>

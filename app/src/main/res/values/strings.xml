@@ -12,5 +12,11 @@
     <string name="fillPassword">Vui lòng nhập mật khẩu</string>
     <string name="addSuccess">Thêm thành công</string>
     <string name="addFailed">Thêm thất bại</string>
-
+    <string name="home">Trang chủ</string>
+    <string name="menu">Thực đơn</string>
+    <string name="employee">Nhân viên</string>
+    <string name="statistic">Thống kê</string>
+    <string name="setting">Cài đặt</string>
+    <string name="open"> Mở</string>
+    <string name="close">Đóng</string>
 </resources>

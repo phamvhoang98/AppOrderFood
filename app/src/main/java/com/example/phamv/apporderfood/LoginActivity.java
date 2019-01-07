@@ -52,6 +52,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         boolean check =  nhanVienDAO.checkLogin(sUsername,sPassword);
         if(check){
             Toast.makeText(LoginActivity.this, "Đăng nhập thành công !", Toast.LENGTH_SHORT).show();
+            Intent iHome= new Intent(LoginActivity.this,HomeActivity.class);
+            iHome.putExtra("tendangnhap",edlogin_user.getText().toString());
+            startActivity(iHome);
         }
         else{
             Toast.makeText(LoginActivity.this, "Đăng nhập thất bại !", Toast.LENGTH_SHORT).show();
