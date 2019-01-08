@@ -18,5 +18,7 @@
     <string name="statistic">Thống kê</string>
     <string name="setting">Cài đặt</string>
     <string name="open"> Mở</string>
+    <string name="addtables">Thêm bàn ăn</string>
     <string name="close">Đóng</string>
+    <string name="tableName">Tên bàn ăn</string>
 </resources>

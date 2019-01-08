@@ -4,6 +4,7 @@
     <group
         android:checkableBehavior="single">
         <item
+            android:id="@+id/ithome"
             android:title="@string/home"
             android:icon="@drawable/trangchu"
             android:checked="true"
@@ -11,24 +12,28 @@
 
         </item>
         <item
+            android:id="@+id/itmenu"
             android:title="@string/menu"
             android:icon="@drawable/logodangnhap"
             >
 
         </item>
         <item
+            android:id="@+id/itemployee"
             android:title="@string/employee"
             android:icon="@drawable/nhanvien"
             >
 
         </item>
         <item
+            android:id="@+id/itstatistic"
             android:title="@string/statistic"
             android:icon="@drawable/thongke"
             >
 
         </item>
         <item
+            android:id="@+id/itsetting"
             android:title="@string/setting"
             android:icon="@drawable/caidat"
             >

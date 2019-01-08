@@ -22,6 +22,11 @@
         <activity android:name=".HomeActivity">
 
         </activity>
+        <activity android:name=".AddTablesActivity"
+            android:theme="@style/PopUpActivity"
+            >
+
+        </activity>
     </application>
 
 </manifest>
